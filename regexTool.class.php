@@ -86,3 +86,19 @@ class regexTool {
     }
 
 }
+
+
+/*
+该类的使用方法如下：
+require_once 'regexTool.class.php';
+
+$regex = new regexTool();
+$regex->setFixMode('U');//设置为贪婪模式
+
+$res1 = $regex->isEmail('50505022@qq.com');
+$res2 = $regex->check('/lubot/','this file is by lubot ');
+
+var_dump($res1);//true
+var_dump($res2);//true
+
+*/
