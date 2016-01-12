@@ -1,6 +1,6 @@
 <?php
 /**
- * @file
+ * @file regexTool.class.php
  * @author lurenzhong@baidu.com
  * @date 15/12/10
  * @brief 正则工具类，可直接实例化后调用
